@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe "How to use mongoid : " do
+describe "set and get fields : " do
 
   let!(:name) { 'example' }
   let!(:name2) { 'example2' }
@@ -9,6 +9,8 @@ describe "How to use mongoid : " do
 
   before() do
     @user = User.new(name: 'example', age: 20)
+    @address = Address.new(zipcode: "000-0038", street: "street name")
+    @user.address = @address
     @user.save!
   end
 
