@@ -1,0 +1,8 @@
+language: ruby
+rvm:
+  - 2.1.2p95
+services:
+  - mongodb
+script:
+  - mongo: mongod --dbpath db/ --port 27017
+  - RAILS_ENV=test bundle exec rspec spec -f d
