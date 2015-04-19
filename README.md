@@ -1,4 +1,6 @@
 
+[![Build Status](https://travis-ci.org/kashiro/rails-mongodb-playground.svg)](https://travis-ci.org/kashiro/rails-mongodb-playground)
+
 # mongoid playground
 
 This is playground for mongoid.
