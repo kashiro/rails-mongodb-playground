@@ -5,5 +5,4 @@ rvm:
 services:
   - mongodb
 script:
-  - mongod --dbpath db/ --port 27017
   - RAILS_ENV=test bundle exec rspec spec -f d
