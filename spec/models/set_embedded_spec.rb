@@ -1,6 +1,8 @@
 require 'rails_helper'
 
 describe "set embedded attributes : " do
+  
+  # http://babie.hatenablog.com/entry/20100809/1281316974
 
   describe "set embedded instance using dot syntax" do
     before() do
